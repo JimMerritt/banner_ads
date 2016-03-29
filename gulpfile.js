@@ -40,7 +40,8 @@ gulp.task('jekyll', function () {
 
 gulp.task('jekyllProduce', function () {
   const jekyll = child.spawn('jekyll', ['build',
-                                        '--config _config_production.yml',
+                                        '--config',
+                                        '_config_production.yml',
                                         ]);
   const jekyllLogger = (buffer) => {
     buffer.toString()
@@ -63,5 +64,5 @@ gulp.task('serve', function () {
   gulp.watch(cssFiles, ['css']);
 });
 
-gulp.task('produce', ['css', 'nano', 'jekyllProduce']);
 gulp.task('default', ['css', 'nano', 'jekyll', 'serve']);
+gulp.task('produce', ['css', 'nano', 'jekyllProduce']);
