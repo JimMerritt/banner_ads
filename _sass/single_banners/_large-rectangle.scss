@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.large-rectangle {
+    width: 336px;
+    height: 280px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

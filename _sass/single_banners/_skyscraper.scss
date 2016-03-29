@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.skyscraper {
+    width: 120px;
+    height: 600px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

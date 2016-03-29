@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.half-page {
+    width: 300px;
+    height: 600px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.banner {
+    width: 468px;
+    height: 60px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

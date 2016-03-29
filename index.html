@@ -1,0 +1,15 @@
+---
+layout: default
+---
+
+<div class="home">
+  <ul class="banner-ad-index">
+    {% for my_page in site.pages %}
+      {% if my_page.title %}
+        <li>
+          <a class="page-link" href="{{ my_page.url | prepend: site.url }}">{{ my_page.title }}</a>
+        </li>
+      {% endif %}
+    {% endfor %}
+  </ul>
+</div>

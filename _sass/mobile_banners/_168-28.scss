@@ -1,0 +1,10 @@
+.ad-wrapper {
+  &.mobile-168-28 {
+    width: 168px;
+    height: 28px;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

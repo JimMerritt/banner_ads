@@ -1,0 +1,49 @@
+---
+# Only the main Sass file needs front matter (the dashes are enough)
+---
+@charset "utf-8";
+$base-font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+$base-font-size:   16px;
+$base-font-weight: 400;
+$base-line-height: 1.5;
+$spacing-unit:     30px;
+$text-color:       #111;
+$background-color: #fdfdfd;
+$brand-color:      #2a7ae2;
+
+$grey-color:       #828282;
+$grey-color-light: lighten($grey-color, 40%);
+$content-width:    800px;
+
+$blue: rgb(0,48,135);
+$red: rgb(218,41,28);
+$darkblue: rgb(12,35,64);
+$darkgrey: rgb(88,89,91);
+$lightblue: rgb(0,156,222);
+$lightgrey: rgb(208,208,206);
+
+@import
+  "base",
+  "layout",
+  "presentation",
+  "animations",
+  "banner-ads",
+  "single_banners/banner",
+  "single_banners/box",
+  "single_banners/digital-radio-banner-ad",
+  "single_banners/digital-radio-tile-ad",
+  "single_banners/half-page",
+  "single_banners/large-rectangle",
+  "single_banners/leaderboard",
+  "mobile_banners/120-20",
+  "mobile_banners/120-30",
+  "mobile_banners/168-28",
+  "mobile_banners/168-42",
+  "mobile_banners/215-36",
+  "mobile_banners/215-54",
+  "mobile_banners/300-50",
+  "mobile_banners/300-75",
+  "mobile_banners/320-50",
+  "single_banners/skyscraper",
+  "single_banners/wide-skyscraper"
+;

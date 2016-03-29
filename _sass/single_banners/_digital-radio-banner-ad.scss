@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.digital-radio-banner-ad {
+    width: 300px;
+    height: 250px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

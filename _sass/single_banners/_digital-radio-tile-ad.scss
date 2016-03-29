@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.digital-radio-tile-ad {
+    width: 500px;
+    height: 500px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

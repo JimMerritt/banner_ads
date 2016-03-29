@@ -1,0 +1,11 @@
+.ad-wrapper {
+  &.leaderboard {
+    width: 728px;
+    height: 90px;
+    z-index: 0;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}

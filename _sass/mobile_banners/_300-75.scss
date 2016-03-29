@@ -1,0 +1,10 @@
+.ad-wrapper {
+  &.mobile-300-75 {
+    width: 300px;
+    height: 75px;
+    overflow: hidden;
+    a {
+      position: relative;
+    }
+  }
+}
