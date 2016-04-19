@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+  {% include head.html %}
+  <body>
+    {{ content }}
+  </body>
+
+  {% unless page.greensock == 'false' %}
+    {% include gsap.html %}
+  {% endunless %}
+
+  {% unless page.usejs == 'false' %}
+  <script type="text/javascript" src="js/{{ page.js }}.js"></script>
+  {% endunless %}
+</html>
