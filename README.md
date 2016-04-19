@@ -6,10 +6,10 @@ This is a basic Jekyll setup to expedite the development of banner ads. After cr
 ### This is built in Jekyll.
 Jekyll is a static site generator that compiles Sass, Markdown and Liquid Tempting files into a static site or collection of files. I've been using this workflow for a variety of projects and love the simplicity, flexibility and reliability of building with it. The resources I use regularly are:   
 
-[The Jekyll Site](https://jekyllrb.com/)
-[Gulp](http://gulpjs.com/)
-[Kramdown Markdown used by Jekyll](http://kramdown.gettalong.org/)
-[Liquid Templating](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+- [The Jekyll Site](https://jekyllrb.com/)   
+- [Gulp](http://gulpjs.com/)   
+- [Kramdown Markdown used by Jekyll](http://kramdown.gettalong.org/)   
+- [Liquid Templating](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)   
 
 ### Process for development
 Banner ads are individually built within the 'ads' folder. The index.html file will display a menu with links to all existing, published pages. The front matter of each ad file will determine the layout of the ad during development vs. production. The main areas to watch are **layout, js and greensock**.
