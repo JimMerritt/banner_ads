@@ -2,7 +2,7 @@ title: >
   Jim Merritt's Banner Ads
 description: >
   A collection of banner ad templates I put together to save development time. Each banner
-  ad has an HTML file, CSS(Sass) file, and JS file if not a mobile banner.
+  ad has an HTML file, CSS(Sass) file, and JS file.
 production: true
 
 baseurl: ""

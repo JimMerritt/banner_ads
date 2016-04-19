@@ -4,12 +4,10 @@
   <body>
     {{ content }}
   </body>
-
-  {% unless page.greensock == 'false' %}
+  {% if page.greensock == 'true' %}
     {% include gsap.html %}
-  {% endunless %}
-
-  {% unless page.usejs == 'false' %}
+  {% endif %}
+  {% if page.usejs == 'true' %}
   <script type="text/javascript" src="js/{{ page.js }}.js"></script>
-  {% endunless %}
+  {% endif %}
 </html>
