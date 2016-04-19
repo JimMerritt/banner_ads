@@ -4,7 +4,9 @@ This is a basic Jekyll setup to expedite the development of banner ads. After cr
 ## Notes:
 
 ### This is built in Jekyll.
-Jekyll is a static site generator that compiles Sass, Markdown and Liquid Tempting files into a static site or collection of files. I've been using this workflow for a variety of projects and love the simplicity, flexibility and reliability of building with it. The resources I use regularly are:   
+Jekyll is a static site generator that compiles Sass, Markdown and Liquid Tempting files into a static site or collection of files. I've been using this workflow for a variety of projects and love the simplicity, flexibility and reliability of building with it.    
+
+The resources I use regularly are:   
 
 - [The Jekyll Site](https://jekyllrb.com/)   
 - [Gulp](http://gulpjs.com/)   
