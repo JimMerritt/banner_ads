@@ -4,15 +4,17 @@ This is a basic Jekyll setup to expedite the development of banner ads. After cr
 ## Notes:
 
 ### This is built in Jekyll.
-Jekyll is a static site generator that compiles Sass, Markdown and Liquid Tempting files into a static site or collection of files. I've been using this workflow for a variety of projects and love the simplicity, flexibility and reliability of building with it. The resources I use regularly are:   
+Jekyll is a static site generator that compiles Sass, Markdown and Liquid Tempting files into a static site or collection of files. I've been using this workflow for a variety of projects and love the simplicity, flexibility and reliability of building with it.    
 
-[The Jekyll Site](https://jekyllrb.com/)
-[Gulp](http://gulpjs.com/)
-[Kramdown Markdown used by Jekyll](http://kramdown.gettalong.org/)
-[Liquid Templating](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)
+The resources I use regularly are:   
+
+- [The Jekyll Site](https://jekyllrb.com/)   
+- [Gulp](http://gulpjs.com/)   
+- [Kramdown Markdown used by Jekyll](http://kramdown.gettalong.org/)   
+- [Liquid Templating](https://github.com/Shopify/liquid/wiki/Liquid-for-Designers)   
 
 ### Process for development
-Banner ads are individually built within the 'ads' folder. The index.html file will display a menu with links to all existing, published pages. The front matter of each ad file will determine the layout of the ad during development vs. production. The main areas to watch are **layout, js and greensock**.
+Banner ads are individually built within the 'ads' folder. Index.html will display a menu with links to all existing, published ads. The front matter of each ad file will determine the layout during development vs. production. The main areas to watch are **layout, js and greensock**.
 
 #### layout
 For layout there are two options:
@@ -22,7 +24,7 @@ For layout there are two options:
 #### js
 Whatever string is set as the js front matter will be referenced by each ad during both development and production. The js string will be appended with the .js file extension and called before the closing html tag.   
 
-Each ad has a js file attached by default using the dimensions as the filename with spaces replaced with dashes instead of x's as in the html filenames.
+Each ad has a js file attached by default using the dimensions as the filename with spaces replaced with dashes instead of x's as in the html filenames. These js files are intended to contain any animations that will not be handled in the CSS.
 
 #### usejs
 This is a boolean for whether the page will use the javascript file called with the js front matter. If the file will not be used, this call is omitted to save on server requests.
@@ -33,7 +35,7 @@ This is a boolean of whether the banner ad will utilize the [GreenSock Animation
 When looking around for animation solutions, most digital distribution centers I investigated said they will support GSAP from CDN. These libraries offer some enhanced animation options for more complicated sequences. I've found CSS animations can become overly taxing if they are complicated and replacing some with repeated GSAP animations actually decreases overhead for the ad. With the various restrictions in place for digital ads, these original three http requests can actually save you quite a bit of bandwidth.
 
 ### Process for production
-In the front matter, the layout is defaulted to **for_development**. This means the layout will include a menu below the digital ads where a user can browse the different sizes. For production purposes, the layout will need to be changed to **for_production** instead of **for_development** so the extraneous menu and all wrappers will be removed, leaving only the necessary elements for the ad itself.   
+In the front matter, the layout is defaulted to **for_development**. This means the layout will include a menu below the digital ads where a user can browse the different sizes. For production purposes, the layout should to be changed to **for_production** instead of **for_development** so the extraneous menu and all wrappers will be removed, leaving only the necessary elements for the ad itself.   
 
 By setting the page layout to **for_production**, you remove all layouts from the file, leaving only the ad's container div. This container div will be sized according to the dimensions of the ad being produced. This should guarantee the ad will display correctly when pushed to whatever ad space is to be used.
 
