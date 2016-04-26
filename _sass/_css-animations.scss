@@ -1,0 +1,33 @@
+/* Basic animation (Slide Left) set as a placeholder
+ * Animation will slide in from left, pause in the middle, then move out left
+ */
+
+@-webkit-keyframes slide_left {
+  0% {
+    left: 100%;
+  }
+  25% {
+    left: 0;
+  }
+  75% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}
+
+@keyframes slide_left {
+  0% {
+    left: 100%;
+  }
+  25% {
+    left: 0;
+  }
+  75% {
+    left: 0;
+  }
+  100% {
+    left: -100%;
+  }
+}

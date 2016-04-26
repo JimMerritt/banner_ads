@@ -1,79 +1,43 @@
-blockquote,
-body,
-dd,
-dl,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-hr,
-ol,
-p,
-pre,
-ul {
+blockquote,body,dd,dl,figure,h1,h2,h3,h4,h5,h6,hr,ol,p,pre,ul {
   margin: 0;
   padding: 0;
 }
 body {
-  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
+  font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-sans-serif;
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
-  -moz-font-feature-settings: "kern" 1;
   -o-font-feature-settings: "kern" 1;
   font-feature-settings: "kern" 1;
-  font-kerning: normal;
+  -webkit-font-kerning: normal;
+          font-kerning: normal;
 }
 %vertical-rhythm,
-blockquote,
-dl,
-figure,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-ol,
-p,
-pre,
-ul {
+blockquote,dl,figure,h1,h2,h3,h4,h5,h6,ol,p,pre,ul {
   margin-bottom: $spacing-unit / 2;
 }
 img {
   max-width: 100%;
   vertical-align: middle;
 }
-ol,
-ul {
+ol,ul {
   margin-left: $spacing-unit;
 }
 li {
-   > ol,
-  > ul {
+  > ul,
+  > ol {
     margin-bottom: 0;
   }
 }
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
+h1,h2,h3,h4,h5,h6 {
   font-weight: $base-font-weight;
 }
 a {
   color: $brand-color;
   text-decoration: none;
-  &:visited {
-    color: darken($brand-color, 15%);
-  }
   &:hover {
     color: $text-color;
-    text-decoration: none;
+    text-decoration: underline;
   }
 }

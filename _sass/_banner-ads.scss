@@ -1,32 +1,11 @@
 .ad-wrapper {
-  $gothic: Arial,"Helvetica Neue",Helvetica,sans-serif;
   -webkit-text-size-adjust: none;
   position: relative;
-  color: $darkblue;
   display: block;
   background-color: white;
-  z-index: 4999;
   background-size: cover;
   overflow: hidden;
   a {
-    color: $blue;
     text-decoration: none;
-  }
-  .no-list {
-    list-style-type: none;
-  }
-  &.mobile #aaa-ad-fourth svg {
-    display: inline;
-    height: 1.351em;
-    line-height: 1;
-    margin: 0 2px 0 0;
-    vertical-align: middle;
-    &.arrow-icon {
-      height: 0.8em;
-      line-height: 1;
-      margin: 0 0 0 2px;
-      opacity: 0.5;
-      vertical-align: baseline;
-    }
   }
 }

@@ -1,9 +1,9 @@
 .ad-wrapper {
-  &.skyscraper {
-    width: 120px;
+  &.wide-skyscraper {
+    width: 160px;
     height: 600px;
-    z-index: 0;
     overflow: hidden;
+    z-index: 0;
     a {
       position: relative;
     }

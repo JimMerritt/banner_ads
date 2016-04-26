@@ -1,0 +1,92 @@
+/* Presentation Typography */
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,300italic,700italic);
+$branded-font: 'Source Sans Pro', sans-serif;
+.branded {
+  font-family: $branded-font;
+}
+.branded.heavy {
+  font-weight: 700;
+}
+.branded.heavy-italic {
+  font-weight: 700;
+  font-style: italic;
+}
+/* Primary dev layout styles */
+body {
+  background-color: $background-color;
+}
+/* Site header */
+.site-header {
+  border-top: 5px solid lighten($base-grey, 30%);
+  border-bottom: 1px solid lighten($base-grey, 30%);
+  height: 6vh;
+  display: block;
+  .site-title {
+    font-size: 26px;
+    font-weight: 300;
+    line-height: 6vh;
+    margin-bottom: 0;
+    color: darken($base-grey, 10%);
+    height: 6vh;
+    line-height: 6vh;
+  }
+}
+/* Primary dev layout */
+.wrapper {
+  max-width: $content-width;
+  margin: 0 auto;
+}
+.page-content {
+  margin-bottom: 60px;
+  padding: $spacing-unit 0;
+  font-weight: 300;
+}
+/* Bottom index navigation */
+.bottom-navigation {
+  max-width: 728px;
+  margin: 60px 0 0;
+}
+h2.current-ad-title {
+  color: darken($base-grey, 10%);
+  font-family: $branded-font;
+  font-size: 1.25em;
+  margin: 0 0 1.5rem;
+  padding: 0.75rem 0;
+  border-top: 1px solid rgb(180,180,180);
+  border-bottom: 1px solid rgb(180,180,180);
+}
+#reload {
+  @include transition-timing(.2s);
+  width: 175px;
+  height: 40px;
+  background-color: lighten($base-grey, 30%);
+  margin: 0 0 1.5rem;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px $base-grey;
+  p {
+    color: darken($base-grey, 30%);
+    font-size: 12px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    line-height: 43px;
+    text-align: center;
+  }
+  &:hover {
+    @include transition-timing(.2s);
+    cursor: pointer;
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+  }
+}
+ul.banner-ad-index {
+  margin: 0 0 2vh;
+  padding: 0;
+  li {
+    font-family: $branded-font;
+    letter-spacing: 0.05em;
+    padding: 1vh 0;
+    width: 100%;
+    display: block;
+    border-bottom: 1px solid rgb(215, 215, 215);
+  }
+}
