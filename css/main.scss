@@ -1,25 +1,16 @@
 ---
 ---
 @charset "utf-8";
-$base-sans-serif:   "Helvetica Neue", Helvetica, Arial, sans-serif;
-$base-serif:        Georgia, Times, "Times New Roman", serif;
-$base-font-size:    16px;
-$base-font-weight:  300;
-$base-line-height:  1.5;
-$spacing-unit:      30px;
-$text-color:        #111;
-$background-color:  rgb(235, 235, 235);
-$brand-color:       #555152;
-
-$base-grey:        #828282;
-$content-width:     800px;
 
 @import
+  "mixins-and-functions",
+  "variables",
   "base",
-  "mixins",
   "dev-layout",
   "css-animations",
   "banner-ads",
+
+  // Ad specific stylesheets
   "ad_specific/120-20",
   "ad_specific/120-30",
   "ad_specific/120-600",
@@ -30,8 +21,7 @@ $content-width:     800px;
   "ad_specific/215-54",
   "ad_specific/300-50",
   "ad_specific/300-75",
-  "ad_specific/300-250-01",
-  "ad_specific/300-250-02",
+  "ad_specific/300-250",
   "ad_specific/300-600",
   "ad_specific/320-50",
   "ad_specific/336-280",

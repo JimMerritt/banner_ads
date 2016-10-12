@@ -1,0 +1,18 @@
+/* Variables to be loaded second, before base styles. Can use mixins and functions */
+
+// Layout
+$content-width:     800px;
+$spacing-unit:      30px;
+$background-color:  rgb(235, 235, 235);
+
+// Typography
+$base-sans-serif:   "Helvetica Neue", Helvetica, Arial, sans-serif;
+$base-serif:        Georgia, Times, "Times New Roman", serif;
+$base-font-size:    16px;
+$base-font-weight:  300;
+$base-line-height:  1.5;
+$text-color:        #111;
+
+// Colors
+$brand-color:       #555152;
+$base-grey:        #828282;

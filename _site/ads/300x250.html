@@ -4,6 +4,7 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="ad.size" content="width=,height=">
   <title>Jim Merritt&#39;s Banner Ads
 </title>
   <meta name="description" content="A collection of banner ad tempaltes I put together to save development time. Each banner ad has an HTML file, CSS(Sass) file, and JS file.
@@ -23,7 +24,7 @@
       <div class="wrapper">
         <article class="post">
   <div class="post-content">
-    <div class="ad-wrapper digital-radio-banner-ad" width="300" height="250">
+    <div class="ad-wrapper ad-300-250" width="" height="">
   <a href="">
   </a>
 </div>
@@ -31,8 +32,8 @@
   </div>
 </article>
 <div class="bottom-navigation">
-  <div id="reload" onclick="reloadPage()"><p>Reload Animation</p></div>
-  <h2 class="current-ad-title">Current Layout: 300 x 250 'digital radio'</h2>
+  <div id="reload" onclick="location.reload();"><p>Reload Animation</p></div>
+  <h2 class="current-ad-title">Current Layout: 300 x 250</h2>
   <ul class="banner-ad-index">
     
       
@@ -85,13 +86,7 @@
     
       
         <li>
-          <a class="page-link" href="/ads/300x250_01.html">300 x 250 'box'</a>
-        </li>
-      
-    
-      
-        <li>
-          <a class="page-link" href="/ads/300x250_02.html">300 x 250 'digital radio'</a>
+          <a class="page-link" href="/ads/300x250.html">300 x 250</a>
         </li>
       
     
@@ -149,15 +144,12 @@
     
   </ul>
 </div>
-<script>
-  function reloadPage() {
-    location.reload();
-  }
-</script>
 
       </div>
     </div>
   </body>
   
+  
+  <script type="text/javascript" src="/js/300-250.js"></script>
   
 </html>

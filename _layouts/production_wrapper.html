@@ -4,10 +4,11 @@
   <body>
     {{ content }}
   </body>
-  {% if page.greensock == 'true' %}
-    {% include gsap.html %}
+  {% if page.greensock == true %}
+  {% include gsap.html %}
   {% endif %}
+
   {% if page.usejs == 'true' %}
-  <script type="text/javascript" src="js/{{ page.js }}.js"></script>
+  <script type="text/javascript" src="/js/{{ page.js }}.js"></script>
   {% endif %}
 </html>

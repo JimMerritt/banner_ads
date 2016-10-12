@@ -1,3 +1,6 @@
+/* Mixins and functions to be loaded first, no variables in here */
+/* Variables to be loaded second, before base styles. Can use mixins and functions */
+/* Base styles brought over from Jekyll original build */
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,300italic,700italic);
 blockquote, body, dd, dl, figure, h1, h2, h3, h4, h5, h6, hr, ol, p, pre, ul {
   margin: 0;
@@ -153,150 +156,143 @@ ul.banner-ad-index {
   display: block;
   background-color: white;
   background-size: cover;
-  overflow: hidden; }
+  overflow: hidden;
+  box-sizing: border-box; }
   .ad-wrapper a {
     text-decoration: none; }
 
-.ad-wrapper.mobile-120-20 {
+.ad-wrapper.ad-120-20 {
   width: 120px;
   height: 20px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-120-20 a {
+  .ad-wrapper.ad-120-20 a {
     position: relative; }
 
-.ad-wrapper.mobile-120-30 {
+.ad-wrapper.ad-120-30 {
   width: 120px;
   height: 30px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-120-30 a {
+  .ad-wrapper.ad-120-30 a {
     position: relative; }
 
-.ad-wrapper.skyscraper {
+.ad-wrapper.ad-120-600 {
   width: 120px;
   height: 600px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.skyscraper a {
+  .ad-wrapper.ad-120-600 a {
     position: relative; }
 
-.ad-wrapper.wide-skyscraper {
+.ad-wrapper.ad-160-600 {
   width: 160px;
   height: 600px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.wide-skyscraper a {
+  .ad-wrapper.ad-160-600 a {
     position: relative; }
 
-.ad-wrapper.mobile-168-28 {
+.ad-wrapper.ad-168-28 {
   width: 168px;
   height: 28px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-168-28 a {
+  .ad-wrapper.ad-168-28 a {
     position: relative; }
 
-.ad-wrapper.mobile-168-42 {
+.ad-wrapper.ad-168-42 {
   width: 168px;
   height: 42px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-168-42 a {
+  .ad-wrapper.ad-168-42 a {
     position: relative; }
 
-.ad-wrapper.mobile-215-36 {
+.ad-wrapper.ad-215-36 {
   width: 215px;
   height: 36px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-215-36 a {
+  .ad-wrapper.ad-215-36 a {
     position: relative; }
 
-.ad-wrapper.mobile-215-54 {
+.ad-wrapper.ad-215-54 {
   width: 215px;
   height: 54px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-215-54 a {
+  .ad-wrapper.ad-215-54 a {
     position: relative; }
 
-.ad-wrapper.mobile-300-50 {
+.ad-wrapper.ad-300-50 {
   width: 300px;
   height: 50px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-300-50 a {
+  .ad-wrapper.ad-300-50 a {
     position: relative; }
 
-.ad-wrapper.mobile-300-75 {
+.ad-wrapper.ad-300-75 {
   width: 300px;
   height: 75px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-300-75 a {
+  .ad-wrapper.ad-300-75 a {
     position: relative; }
 
-.ad-wrapper.box {
+.ad-wrapper.ad-300-250 {
   width: 300px;
   height: 250px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.box a {
+  .ad-wrapper.ad-300-250 a {
     position: relative; }
 
-.ad-wrapper.digital-radio-banner-ad {
-  width: 300px;
-  height: 250px;
-  overflow: hidden;
-  z-index: 0; }
-  .ad-wrapper.digital-radio-banner-ad a {
-    position: relative; }
-
-.ad-wrapper.half-page {
+.ad-wrapper.ad-300-600 {
   width: 300px;
   height: 600px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.half-page a {
+  .ad-wrapper.ad-300-600 a {
     position: relative; }
 
-.ad-wrapper.mobile-320-50 {
+.ad-wrapper.ad-320-50 {
   width: 320px;
   height: 50px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.mobile-320-50 a {
+  .ad-wrapper.ad-320-50 a {
     position: relative; }
 
-.ad-wrapper.large-rectangle {
+.ad-wrapper.ad-336-280 {
   width: 336px;
   height: 280px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.large-rectangle a {
+  .ad-wrapper.ad-336-280 a {
     position: relative; }
 
-.ad-wrapper.banner {
+.ad-wrapper.ad-468-60 {
   width: 468px;
   height: 60px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.banner a {
+  .ad-wrapper.ad-468-60 a {
     position: relative; }
 
-.ad-wrapper.digital-radio-tile-ad {
+.ad-wrapper.ad-500-500 {
   width: 500px;
   height: 500px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.digital-radio-tile-ad a {
+  .ad-wrapper.ad-500-500 a {
     position: relative; }
 
-.ad-wrapper.leaderboard {
+.ad-wrapper.ad-728-90 {
   width: 728px;
   height: 90px;
   overflow: hidden;
   z-index: 0; }
-  .ad-wrapper.leaderboard a {
+  .ad-wrapper.ad-728-90 a {
     position: relative; }

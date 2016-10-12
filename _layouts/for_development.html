@@ -1,5 +1,5 @@
 ---
-layout: full_development
+layout: development_wrapper
 ---
 
 <article class="post">
@@ -8,7 +8,7 @@ layout: full_development
   </div>
 </article>
 <div class="bottom-navigation">
-  <div id="reload" onclick="reloadPage()"><p>Reload Animation</p></div>
+  <div id="reload" onclick="location.reload();"><p>Reload Animation</p></div>
   <h2 class="current-ad-title">Current Layout: {{ page.title }}</h2>
   <ul class="banner-ad-index">
     {% for my_page in site.pages %}
@@ -20,8 +20,3 @@ layout: full_development
     {% endfor %}
   </ul>
 </div>
-<script>
-  function reloadPage() {
-    location.reload();
-  }
-</script>

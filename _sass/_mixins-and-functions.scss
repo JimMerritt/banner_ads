@@ -1,0 +1,13 @@
+/* Mixins and functions to be loaded first, no variables in here */
+
+@mixin transition-timing( $time ) {
+  -webkit-transition: all $time ease;
+  transition: all $time ease;
+}
+
+@function ralpha($color, $opacity) {
+  $r: red($color);
+  $g: green($color);
+  $b: blue($color);
+  @return rgba($r, $g, $b, $opacity);
+}

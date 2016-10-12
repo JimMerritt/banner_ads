@@ -51,7 +51,7 @@ The default config will work with the default Gulp command while the production 
 
 The **gulp produce** command will build the Jekyll site based on **_config_production.yml** parameters.
 
-### Oh, lastly, I’ve implemented Gulp. This requires Node, NPM and Gulp to be installed.
+### Oh, lastly, I’ve implemented Gulp.
 The required gulp packages built into the Gulp commands are:
 - [Browser Sync](https://www.browsersync.io/)
 - [Gulp Concat](https://github.com/contra/gulp-concat)

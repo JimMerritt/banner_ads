@@ -1,10 +1,9 @@
 title: >
   Jim Merritt's Banner Ads
 description: >
-  A collection of banner ad tempaltes I put together to save development time. Each banner
+  A collection of banner ad templates I put together to save development time. Each banner
   ad has an HTML file, CSS(Sass) file, and JS file.
 production: false
-
 baseurl: ""
 url: ""
 
